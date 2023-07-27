@@ -18,8 +18,10 @@ function Cards() {
             <CardItem
               src="https://http2.mlstatic.com/D_NQ_NP_617579-MLA40103563286_122019-O.webp"
               text="Disco sólido interno Kingston SA400S37/960G 960GB"
+              
               label="$27.699"
               path="/venta"
+              
             />
             <CardItem
               src="https://http2.mlstatic.com/D_NQ_NP_613531-MLA70589895065_072023-O.webp"

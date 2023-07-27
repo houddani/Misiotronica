@@ -64,10 +64,10 @@ input {
   overflow: hidden;
 }
 
-.fade-img {
+/*.fade-img {
   animation-name: fade-img;
   animation-duration: 2s;
-}
+}*/
 
 .cards__item__pic-wrap::after {
   content: attr(data-category);
@@ -110,6 +110,16 @@ input {
   color: #fff;
   font-size: 18px;
   line-height: 24px;
+}
+
+ .cart-logo {
+    color: #EEEEEE;
+    display: flex;
+    justify-self: end;
+    margin-left: 90%;
+    margin-top: 10%;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 1200px) {
