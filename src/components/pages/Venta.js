@@ -5,7 +5,6 @@ import Cards from "../Cards";
 function Venta() {
   return (
     <>
-      
       <Cards />
     </>
   );
