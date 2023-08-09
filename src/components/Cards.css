@@ -16,9 +16,7 @@ input {
   border-radius: 5px;
   width: 14rem;
   margin-left: 44%;
-
 }
-
 
 .cards__container {
   display: flex;
@@ -112,14 +110,14 @@ input {
   line-height: 24px;
 }
 
- .cart-logo {
-    color: #EEEEEE;
-    display: flex;
-    justify-self: end;
-    margin-left: 90%;
-    margin-top: 10%;
-    cursor: pointer;
-    text-decoration: none;
+.cart-logo {
+  color: #eeeeee;
+  display: flex;
+  justify-self: end;
+  margin-left: 90%;
+  margin-top: 10%;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 1200px) {
