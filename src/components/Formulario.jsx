@@ -33,8 +33,8 @@ const Formulario = () => {
         placeholder="Ingrese su correo"
       />
       <input
-        type="prone"
-        name="phoe"
+        type="phone"
+        name="phone"
         id=""
         onChange={handleChange}
         value={data.phone}

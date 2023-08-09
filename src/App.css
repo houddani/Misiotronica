@@ -8,20 +8,20 @@
 .sobre-nosotros {
   background-color: #000000;
   color: #fff;
-  padding: 66px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
 }
 .sobre-nosotros h1 {
   font-size: 70px;
-  margin: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .sobre-nosotros p {
   font-size: 20px;
-  text-align: justify;
-  margin: 60px;
-  margin-left: 20%;
-  margin-right: 20%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .contacto {
@@ -100,4 +100,24 @@ form button {
   display: flex;
   justify-content: center;
   margin: 5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .sobre-nosotros > h1 {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sobre-nosotros > h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+  }
+
+  .sobre-nosotros p {
+    font-size: 18px;
+    text-align: justify;
+  }
 }
