@@ -1,4 +1,4 @@
-// eslink-disable-next-line import logo from './logo.svg';
+
 import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
