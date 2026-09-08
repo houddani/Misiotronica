@@ -21,7 +21,7 @@
     "eject": "react-scripts eject"
   },
   "overrides": {
-    "@tootallnate/once": "2.0.0"
+    "@tootallnate/once": "2.0.1"
   },
   "eslintConfig": {
     "extends": [
